@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>CASTLE | Связаться с нами</title>
+<style>
+  :root {
+    --bg-color: #000000;
+    --text-main: #ffffff;
+    --text-muted: #a1a1aa;
+    --btn-bg: #18181b;
+    --btn-border: #27272a;
+    --accent: #ffffff;
+    --accent-text: #000000;
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 16px;
+    min-height: 100svh;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .logo {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 1.25;
+    margin: 0 0 16px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .sub {
+    font-size: 14.5px; /* Чуть уменьшил шрифт, чтобы длинный текст смотрелся аккуратно */
+    line-height: 1.5;
+    color: var(--text-muted);
+    margin: 0 0 32px;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 58px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+  }
+
+  .btn:active {
+    transform: scale(0.98);
+  }
+
+  .btn-primary {
+    background-color: var(--accent);
+    color: var(--accent-text);
+    border: none;
+  }
+
+  .btn-outline {
+    background-color: var(--btn-bg);
+    color: var(--text-main);
+    border: 1.5px solid var(--btn-border);
+  }
+
+  .btn svg {
+    flex: 0 0 auto;
+  }
+
+  .footer {
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: #71717a;
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid #1f1f22;
+  }
+
+  .brand-name {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+</style>
+</head>
+<body>
+
+  <main class="card">
+    
+    <!-- ЛОГОТИП -->
+    <img src="logo.jpg" alt="CASTLE" class="logo">
+
+    <div class="brand-name">Мебельная фабрика Акцент Интерьера</div>
+
+    <h1>Что-то не так с заказом?</h1>
+    
+    <!-- НОВЫЙ ТЕКСТ -->
+    <p class="sub">
+      Приветствуем Вас, уважаемый покупатель. Мы являемся производителем товара, который вы получили. Если у Вас возникли какие-то вопросы по изделию (товар повредился, не хватает фурнитуры или любой другой вопрос) — свяжитесь с нами, и мы решим любую вашу проблему.
+    </p>
+
+    <!-- 1. ПОЧТА (Упрощенная ссылка для надежности) -->
+    <a class="btn btn-primary" href="mailto:castle-mebel@mail.ru?subject=Вопрос%20по%20заказу%20CASTLE">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+      Написать на почту
+    </a>
+
+    <!-- 2. SMS -->
+    <a class="btn btn-outline" href="sms:89278250026?body=Здравствуйте!%20Пишу%20с%20сайта.%20Номер%20заказа:%20">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      Отправить SMS
+    </a>
+
+    <!-- 3. MAX -->
+    <a class="btn btn-outline" href="https://max.ru/u/f9LHodD0cOIkNZpkh7_hver-5mra0IG8Gfbm4Wx7LcOz9_6IFq-9i7wYWJs" target="_blank" rel="noopener">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 8v4l3 3"/></svg>
+      Написать в MAX
+    </a>
+
+    <!-- НОВЫЙ ФУТЕР -->
+    <div class="footer">
+      Отвечаем Понедельник–Пятница с 7:00 до 16:00 по Московскому времени.<br>
+      Решаем вопросы по гарантии и комплектации быстро и качественно, ведь это товар нашего производства и мы в ответе за тех кого приручили (произвели) :)
+    </div>
+
+  </main>
+
+</body>
+</html>
